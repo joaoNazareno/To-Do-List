@@ -91,4 +91,7 @@ Sinta-se à vontade para fazer um fork deste repositório, fazer alterações e 
 ## Licença
 Este projeto é licenciado sob a Licença MIT.
 
-Por João Nazareno
+
+
+
+## By João Nazareno
