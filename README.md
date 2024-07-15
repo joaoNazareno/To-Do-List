@@ -94,4 +94,4 @@ Este projeto é licenciado sob a Licença MIT.
 
 
 
-## By João Nazareno
+## By João Nazareno 🦅
