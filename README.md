@@ -45,7 +45,6 @@ Este é um simples aplicativo web de Lista de Tarefas onde os usuários podem ad
 
 To-Do-List/
 │
-
 ├── app/
 │   ├── add.php
 │   ├── check.php
