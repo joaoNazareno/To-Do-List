@@ -18,11 +18,11 @@ Este é um simples aplicativo web de Lista de Tarefas onde os usuários podem ad
 
 ## Instalação e Configuração
 1. Clone o repositório:
-      git clone https://github.com/joaoNazareno/To-Do-List.git
+           git clone https://github.com/joaoNazareno/To-Do-List.git
 
 2. Navegue até o diretório do projeto:
-      cd To-Do-List
-
+           cd To-Do-List
+ 
 3. Configure o banco de dados:
 º Crie um novo banco de dados MySQL chamado `todo_list`.
 º Importe o arquivo `todo_list.sql` fornecido para configurar as tabelas necessárias:
