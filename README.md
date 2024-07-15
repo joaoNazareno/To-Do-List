@@ -67,6 +67,7 @@ To-Do-List/
 ├── README.md
 └── todo_list.sql
 
+![Captura de Tela (143)](https://github.com/user-attachments/assets/3b670614-a4f5-4ca0-b402-a8841009c867)
 
 ## Uso
 
