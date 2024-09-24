@@ -1,48 +1,54 @@
-## Projeto Lista de Tarefas
 
-Este é um simples aplicativo web de Lista de Tarefas onde os usuários podem adicionar, editar e remover tarefas. A aplicação foi desenvolvida utilizando HTML, CSS, JavaScript (jQuery), PHP e MySQL. O projeto foi gerenciado utilizando o Laragon como ferramenta de gerenciamento de servidor.
+
+---
+
+<br>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=DC143C&size=35&center=true&vCenter=true&width=1000&lines=TO-DO+LIST+PROJECT;Gerencie+suas+tarefas+facilmente!)](https://git.io/typing-svg)
+
+## Como Rodar o Projeto
+
+### Pré-requisitos
+
+- ![PHP](https://img.shields.io/badge/-PHP-0D1117?style=for-the-badge&logo=php&labelColor=0D1117)&nbsp; 8.0+
+- ![MySQL](https://img.shields.io/badge/-MySQL-0D1117?style=for-the-badge&logo=mysql&labelColor=0D1117)&nbsp;
+- ![Laragon](https://img.shields.io/badge/-Laragon-0D1117?style=for-the-badge&logo=laragon&labelColor=0D1117)&nbsp;
+
+### Configuração
+
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/joaoNazareno/To-Do-List.git
+   cd To-Do-List
+   ```
+
+2. **Configure o Banco de Dados:**
+   - Crie um banco de dados MySQL chamado `todo_list`.
+   - Importe o arquivo `todo_list.sql`:
+   ```bash
+   mysql -u seu_usuario -p todo_list < todo_list.sql
+   ```
+
+3. **Atualize as Credenciais no Arquivo `db_conn.php`:**
+   - No diretório `app/`, abra `db_conn.php` e configure as credenciais do banco de dados conforme necessário.
+
+4. **Inicie o Servidor Laragon:**
+   - Abra o Laragon e inicie os serviços Apache e MySQL.
+   - Certifique-se de que o projeto esteja no diretório `www` do Laragon.
+
+5. **Acesse a Aplicação:**
+   - Navegue até `http://localhost/To-Do-List`.
 
 ## Funcionalidades
-º Adicionar novas tarefas
-º Marcar tarefas como concluídas
-º Editar tarefas
-º Excluir tarefas
 
-## Tecnologias Utilizadas
-º HTML: Para a estrutura das páginas web
-º CSS: Para a estilização das páginas web
-º JavaScript (jQuery): Para interatividade e manipulação de requisições AJAX
-º PHP: Para a lógica de servidor
-º MySQL: Para o banco de dados
-º Laragon: Como ambiente de desenvolvimento local
-
-## Instalação e Configuração
-1. Clone o repositório:
-
-        git clone https://github.com/joaoNazareno/To-Do-List.git
-3. Navegue até o diretório do projeto:
-
-        cd To-Do-List
-5. Configure o banco de dados:
-º Crie um novo banco de dados MySQL chamado `todo_list`.
-º Importe o arquivo `todo_list.sql` fornecido para configurar as tabelas necessárias:
-## mysql -u yourusername -p todo_list < todo_list.sql
-
-4. Configure a conexão com o banco de dados:
-º Abra o arquivo `db_conn.php` no diretório `app`.
-º Atualize as credenciais do banco de dados (host, nome de usuário, senha, nome do banco de dados) conforme sua configuração local.
-
-5. Inicie o servidor:
-º Abra o Laragon.
-º Inicie os serviços Apache e MySQL.
-º Certifique-se de que o projeto está localizado no diretório `www` do Laragon.
-
-6. Acesse a aplicação:
-º Abra um navegador web e navegue até `http://localhost/To-Do-List`.
-
+- **Adicionar** novas tarefas.
+- **Marcar** tarefas como concluídas.
+- **Editar** tarefas existentes.
+- **Excluir** tarefas.
 
 ## Estrutura do Projeto
 
+```plaintext
 To-Do-List/
 │
 ├── app/
@@ -66,29 +72,11 @@ To-Do-List/
 ├── index.php
 ├── README.md
 └── todo_list.sql
+```
 
-![Captura de Tela (143)](https://github.com/user-attachments/assets/3b670614-a4f5-4ca0-b402-a8841009c867)
+---
 
-## Uso
+**By João Nazareno 🦅**
 
-º Adicionar uma Tarefa:
-        Insira a tarefa no campo de entrada e clique em "Incluir".
-º Editar uma Tarefa:
-        Clique no botão "Editar" ao lado da tarefa, faça as alterações e clique em "Salvar".
-º Marcar uma Tarefa como Concluída:
-        Clique na caixa de seleção ao lado da tarefa.
-º Excluir uma Tarefa:
-        Clique no botão "x" ao lado da tarefa.
+--- 
 
-
-## Contribuição
-
-Sinta-se à vontade para fazer um fork deste repositório, fazer alterações e enviar pull requests. Qualquer contribuição é bem-vinda!
-
-## Licença
-Este projeto é licenciado sob a Licença MIT.
-
-
-
-
-## By João Nazareno 🦅
